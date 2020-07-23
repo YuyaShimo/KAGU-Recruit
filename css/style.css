@@ -94,7 +94,7 @@ h1 {
 .header-nav-wrap .nav-list .entry a{
   position: relative;
   margin-right: 0;
-  padding: 7px 30px;
+  padding: 7px 30px 7px 20px;
   background: mediumseagreen;
   border-radius: 30px;
   color: #fff;
@@ -117,3 +117,27 @@ h1 {
   right: 15px;
 }
 /*header end*/
+
+/*hero start*/
+
+/*hero end*/
+
+/*vision start*/
+
+/*vision end*/
+
+/*about start*/
+
+/*about end*/
+
+/*staff start*/
+
+/*staff end*/
+
+/*recruit start*/
+
+/*recruit end*/
+
+/*footer start*/
+
+/*footer end*/
