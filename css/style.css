@@ -92,10 +92,28 @@ h1 {
 }
 
 .header-nav-wrap .nav-list .entry a{
+  position: relative;
   margin-right: 0;
   padding: 7px 30px;
   background: mediumseagreen;
   border-radius: 30px;
   color: #fff;
+}
+
+.header-nav-wrap .nav-list .entry a::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 20px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg) translateY(-75%);
+  transition: all 0.2s ;
+}
+
+.header-nav-wrap .nav-list .entry:hover a::after {
+  right: 15px;
 }
 /*header end*/
