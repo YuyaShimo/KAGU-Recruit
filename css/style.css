@@ -33,10 +33,13 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  background: #fff;
   z-index: 1000;
 }
 
 .header-inner {
+  width: 95%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding: 15px 0;
@@ -120,8 +123,42 @@ img {
 /*header end*/
 
 /*hero start*/
+
+.slider-item {
+  position: relative;
+}
+
+.slider-info h2 {
+  font-size: 8rem;
+  font-family: fantasy;
+  margin-bottom: 10px;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.slider-info p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.slider-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%,20%);
+  transition: 0s;
+}
+
+.slider-info.on {
+  opacity: 1;
+  transform: translate(-50%,-50%);
+  transition: .5s;
+}
+
 .slider-item img{
   height: 100vh;
+  object-fit: cover;
 }
 /*hero end*/
 
