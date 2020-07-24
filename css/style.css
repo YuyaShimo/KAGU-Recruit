@@ -22,8 +22,8 @@ h1 {
   font-weight: bold;
 }
 
-.total-wrap {
-  background: #f2f2f2;
+img {
+  width: 100%;
 }
 /*common end*/
 
@@ -33,6 +33,7 @@ h1 {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1000;
 }
 
 .header-inner {
@@ -119,7 +120,9 @@ h1 {
 /*header end*/
 
 /*hero start*/
-
+.slider-item img{
+  height: 100vh;
+}
 /*hero end*/
 
 /*vision start*/
