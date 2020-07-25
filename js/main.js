@@ -5,7 +5,7 @@ $(function(){
     $('#slider-list').slick({
       autoplay:true,
       autoplaySpeed:5000,
-      dots:true,
+      dots:false,
       infinite:true,
     });
     $('#slider-list').on('beforeChange',function(){

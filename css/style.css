@@ -129,6 +129,10 @@ img {
   position: relative;
 }
 
+.hero-slider-wrap {
+  margin-bottom: 180px;
+}
+
 .slider-info h2 {
   font-size: 8rem;
   font-family: fantasy;
@@ -146,17 +150,21 @@ img {
 
 .slider-info {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  bottom: 0;
+  left: 10%;
   opacity: 0;
-  transform: translate(-50%,20%);
   transition: 0s;
 }
 
 .slider-info.on {
   opacity: 1;
-  transform: translate(-50%,-50%);
+  top: 70%;
+  left: 10%;
   transition: .5s;
+}
+
+.slider-title {
+  transform: rotate(-5deg);
 }
 
 .slider-item img{
@@ -180,11 +188,65 @@ img {
 .slider-info a:hover {
   color: mediumseagreen;
   background: #fff;
+  background: transparent;
+  border: 2px solid mediumseagreen;
 }
 /*hero end*/
 
 /*vision start*/
+.vision-box {
+  position: relative;
+  width: 60%;
+  height: 500px;
+  background: rgb(215, 238, 234);
+}
 
+.vision-box h2 {
+  font-size: 15rem;
+  color: #fff;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.vision-color-box {
+  position: relative;
+  background: mediumseagreen;
+  width: 40%;
+  height: 240px;
+}
+
+.vision-color-box::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -80px;
+  width: calc(100% + 400px);
+  background: mediumseagreen;
+  height: calc(100% + 160px);
+  z-index: -1;
+}
+
+.vision-wrap {
+  display: flex;
+  justify-content: start;
+}
+
+.vision-info {
+  position: absolute;
+  top: 18%;
+  left: 30%;
+}
+
+.vision-info h3 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.vision-info p {
+  font-size: 1.6rem;
+  line-height: 3;
+  margin-bottom: 40px;
+}
 /*vision end*/
 
 /*about start*/
