@@ -25,6 +25,15 @@ h1 {
 img {
   width: 100%;
 }
+
+h2 {
+  font-size: 15rem;
+  font-family: fantasy;
+}
+
+.link-arrow {
+
+}
 /*common end*/
 
 /*header start*/
@@ -135,7 +144,6 @@ img {
 
 .slider-info h2 {
   font-size: 8rem;
-  font-family: fantasy;
   margin-bottom: 10px;
   color: #fff;
   border-bottom: 2px solid #fff;
@@ -202,9 +210,7 @@ img {
 }
 
 .vision-box h2 {
-  font-size: 15rem;
   color: #fff;
-  font-family: fantasy;
   text-align: center;
 }
 
@@ -229,6 +235,7 @@ img {
 .vision-wrap {
   display: flex;
   justify-content: start;
+  margin-bottom: 150px;
 }
 
 .vision-info {
@@ -250,6 +257,68 @@ img {
 /*vision end*/
 
 /*about start*/
+.about .about-wrap h2 {
+  color: mediumseagreen;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.about-wrap {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background-image: url(../images/hero3.jpg) ;
+  background-size: cover;
+  background-position: center center;
+}
+
+.left-white-area {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 10%;
+  background-color: #f2f2f2;
+}
+
+.right-white-area {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 10%;
+  background-color: #f2f2f2;
+}
+
+.about-link-area {
+  width: 50%;
+  height: 100%;
+}
+
+.link-item {
+  position: relative;
+  background: mediumseagreen;
+  color: #fff;
+  width: calc(100% / 2);
+  height: 325px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.link-item .link-title {
+  position: absolute;
+  font-size: 3rem;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+
+.link-item .link-text {
+  font-size: 2rem;
+}
+
 
 /*about end*/
 
