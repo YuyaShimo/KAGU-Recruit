@@ -297,19 +297,25 @@ h2 {
   height: 100%;
 }
 
-.link-item {
+.about-link-area .link-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-link-area .link-item {
   position: relative;
   background: mediumseagreen;
   color: #fff;
-  width: calc(100% / 2);
+  width: calc((100% / 2) - 100px);
   height: 325px;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
+  margin: 5% 0 0 0;
 }
 
 .link-item .link-title {
   position: absolute;
+  width: 100%;
+  text-align: center;
   font-size: 3rem;
   top: 35%;
   left: 50%;
